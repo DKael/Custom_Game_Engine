@@ -1,0 +1,463 @@
+{
+  "Actors" : [{
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 70",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [96.158638, -125.859154, 8.389319],
+          "Material 0" : "marble_bust_01",
+          "Outline" : true,
+          "Rotation" : [-0.000824, -10.424438, -179.999893],
+          "Scale" : [10.000000, 10.000000, 10.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset\\Mesh\\marble\\marble_bust_01_1k.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 70",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [86.857323, -98.806831, 5.079893],
+          "Material 0" : "brass_pan_01",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 180.000000],
+          "Scale" : [30.000000, 30.000000, 30.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset\\Mesh\\pan\\brass_pan_01_1k.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 70",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [97.992592, -23.722935, 9.000000],
+          "Material 0" : "mid_century_lounge_chair",
+          "Outline" : true,
+          "Rotation" : [0.000000, 30.000000, 180.000000],
+          "Scale" : [10.000000, 10.000000, 10.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset\\Mesh\\chair\\mid_century_lounge_chair_1k.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 70",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [97.542519, -43.470608, 9.000000],
+          "Material 0" : "without_normalMap_mid_century_lounge_chair",
+          "Outline" : true,
+          "Rotation" : [0.000000, 30.000000, -179.999893],
+          "Scale" : [10.000000, 10.000000, 10.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset\\Mesh\\chair\\wirhoutNormalMap\\without_normalMap_mid_century_lounge_chair_1k.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "ADecalActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 355",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [91.057777, -35.186199, 48.772797],
+          "Material" : "Material_BTC",
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [30.000000, 30.000000, 30.000000],
+          "Sort Order" : 0,
+          "Visible" : true,
+          "bUseSurfaceNormal" : true
+        }
+      },
+      "Visible" : false
+    }, {
+      "ClassName" : "ASpotLightActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "USpotLightComponent",
+            "Properties" : {
+              "Color" : [0.000000, 0.000000, 1.000000, 1.000000],
+              "InnerConeAngle" : 35.799999,
+              "Intensity" : 30.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "OuterConeAngle" : 45.000000,
+              "Radius" : 30.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000]
+            }
+          }, {
+            "ClassName" : "UBillboardComponent",
+            "Properties" : {
+              "Distance Fade" : false,
+              "Fade End Distance" : 1000.000000,
+              "Fade Start Distance" : 100.000000,
+              "Height" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Outline" : false,
+              "Play Rate" : 30.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [5.000000, 5.000000, 5.000000],
+              "Sprite" : "Asset\\Texture\\S_LightSpot.png",
+              "Visible" : true,
+              "Width" : 1.000000,
+              "bCylindrical" : false,
+              "bLoop" : true,
+              "bUseRotation" : false
+            }
+          }],
+        "ClassName" : "USceneComponent",
+        "Properties" : {
+          "Location" : [99.056717, -123.979332, 18.386450],
+          "Rotation" : [-0.000000, 90.000000, -0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000]
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "APointLightActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UPointLightComponent",
+            "Properties" : {
+              "Color" : [1.000000, 0.000000, 0.971446, 1.000000],
+              "Intensity" : 5.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Radius" : 10.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000]
+            }
+          }, {
+            "ClassName" : "UBillboardComponent",
+            "Properties" : {
+              "Distance Fade" : false,
+              "Fade End Distance" : 1000.000000,
+              "Fade Start Distance" : 100.000000,
+              "Height" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Outline" : false,
+              "Play Rate" : 30.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [5.000000, 5.000000, 5.000000],
+              "Sprite" : "Asset\\Texture\\S_LightPoint.png",
+              "Visible" : true,
+              "Width" : 1.000000,
+              "bCylindrical" : false,
+              "bLoop" : true,
+              "bUseRotation" : false
+            }
+          }],
+        "ClassName" : "USceneComponent",
+        "Properties" : {
+          "Location" : [96.105675, -99.190498, 7.919768],
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000]
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "ADirectionalLightActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UDirectionalLightComponent",
+            "Properties" : {
+              "Color" : [1.000000, 1.000000, 1.000000, 1.000000],
+              "Intensity" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Rotation" : [0.000000, 45.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000]
+            }
+          }, {
+            "ClassName" : "UBillboardComponent",
+            "Properties" : {
+              "Distance Fade" : false,
+              "Fade End Distance" : 1000.000000,
+              "Fade Start Distance" : 100.000000,
+              "Height" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Outline" : false,
+              "Play Rate" : 30.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [5.000000, 5.000000, 5.000000],
+              "Sprite" : "Asset\\Texture\\S_LightDirectional.png",
+              "Visible" : true,
+              "Width" : 1.000000,
+              "bCylindrical" : false,
+              "bLoop" : true,
+              "bUseRotation" : false
+            }
+          }],
+        "ClassName" : "USceneComponent",
+        "Properties" : {
+          "Location" : [222.219116, 0.000000, 0.000000],
+          "Rotation" : [0.000000, 0.000000, 180.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000]
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AAmbientLightActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UAmbientLightComponent",
+            "Properties" : {
+              "Color" : [0.304987, 0.304987, 0.304987, 1.000000],
+              "Intensity" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000]
+            }
+          }],
+        "ClassName" : "USceneComponent",
+        "Properties" : {
+          "Location" : [0.000000, 0.000000, 0.000000],
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000]
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 367",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [59.255417, -70.551765, 45.321915],
+          "Material 0" : "moon_rock_04",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [20.000000, 319.787628, 197.709259],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 367",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [95.901726, -28.588844, 1.000000],
+          "Material 0" : "WoodBox",
+          "Outline" : true,
+          "Rotation" : [0.000000, -90.000000, 0.000000],
+          "Scale" : [5.000000, 70.790062, 63.456512],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 367",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [95.901726, -112.398117, 1.000000],
+          "Material 0" : "WoodBox",
+          "Outline" : true,
+          "Rotation" : [0.000000, -90.000000, 0.000000],
+          "Scale" : [5.000000, 70.790062, 63.456512],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 367",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [156.157394, -70.551765, -13.925123],
+          "Material 0" : "moon_rock_04",
+          "Outline" : true,
+          "Rotation" : [0.000000, 90.000000, 0.000000],
+          "Scale" : [20.000000, 319.787628, 197.709259],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "ADecalActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 56",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [94.051056, -32.193436, 9.963333],
+          "Material" : "Material_BTC",
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [30.000000, 30.000000, 30.000000],
+          "Sort Order" : 0,
+          "Visible" : false,
+          "bUseSurfaceNormal" : true
+        }
+      },
+      "Visible" : true
+    }],
+  "ClassName" : "UWorld",
+  "Name" : "LightDemoScene",
+  "PerspectiveCamera" : {
+    "FOV" : [84.000000],
+    "FarClip" : [2000.000000],
+    "Location" : [126.863060, -32.915058, 25.002155],
+    "NearClip" : [0.100000],
+    "Rotation" : [-26.072998, 171.347946, -3.826172]
+  },
+  "Version" : 3,
+  "WorldType" : "Editor"
+}

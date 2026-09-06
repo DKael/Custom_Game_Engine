@@ -1,0 +1,11 @@
+
+newmtl BloodHand
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3     # 조명 모델 (1: Diffuse On, Specular Off)
+
+map_Kd BloodHand.png

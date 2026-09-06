@@ -1,0 +1,277 @@
+{
+  "Actors" : [{
+      "ClassName" : "AExponentialHeightFog",
+      "RootComponent" : {
+        "ClassName" : "UHeightFogComponent",
+        "Properties" : {
+          "Cutoff Distance" : 0.000000,
+          "Fog Density" : 0.019000,
+          "Height Falloff" : 0.000000,
+          "Inscattering Color" : [0.073030, 0.073030, 0.073030, 1.000000],
+          "Location" : [0.000000, 0.000000, 0.000000],
+          "Max Opacity" : 1.000000,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Start Distance" : 0.000000,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "ADecalActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [19.503325, -22.549978, 0.175761],
+          "Material" : "DecalWall",
+          "Rotation" : [-0.187958, -0.285034, 56.650913],
+          "Scale" : [83.973785, 98.712074, 56.810524],
+          "Sort Order" : 0,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 10",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [1.677359, -22.548288, -0.135573],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 81.094414, 53.444809],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 14",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 15.663359, 0.000000],
+          "Material 0" : "Mat_주황_금속",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 8.802683, 8.335687],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [24.276871, -41.966427, 8.958977],
+          "Material" : "BulletHole",
+          "Rotation" : [-0.000000, 0.000000, 90.162666],
+          "Scale" : [-0.681126, 8.087376, 7.148699],
+          "Sort Order" : 2,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 10",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [13.805929, -42.852779, -0.135573],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [-0.000000, 0.000000, 91.241508],
+          "Scale" : [1.000000, 81.094414, 53.444809],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [21.608225, -41.998993, 2.707755],
+          "Material" : "BloodHand",
+          "Rotation" : [-0.000000, 0.000000, 92.902443],
+          "Scale" : [5.578934, 7.186347, 8.444229],
+          "Sort Order" : 2,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [29.476288, -41.998993, -1.224047],
+          "Material" : "BloodHand",
+          "Rotation" : [-0.000000, 0.000000, 107.917259],
+          "Scale" : [5.578934, -7.245955, 10.543879],
+          "Sort Order" : 2,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 100.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "UDecalComponent",
+        "Properties" : {
+          "Distance Fade" : false,
+          "Fade Amount" : 1.000000,
+          "Fade End Distance" : 1000.000000,
+          "Fade Start Distance" : 100.000000,
+          "Location" : [37.548824, -41.998993, 2.041040],
+          "Material" : "Blood",
+          "Rotation" : [-0.000000, 0.000000, 93.626404],
+          "Scale" : [5.578934, 19.834291, 51.153442],
+          "Sort Order" : 2,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }],
+  "ClassName" : "UWorld",
+  "Name" : "DecalBlood",
+  "PerspectiveCamera" : {
+    "FOV" : [90.000000],
+    "FarClip" : [2000.000000],
+    "Location" : [34.433559, -4.148497, 15.587936],
+    "NearClip" : [0.100000],
+    "Rotation" : [-2.338257, -107.788696, 7.246854]
+  },
+  "Version" : 3,
+  "WorldType" : "Editor"
+}

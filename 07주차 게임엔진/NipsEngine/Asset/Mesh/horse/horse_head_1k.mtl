@@ -1,0 +1,14 @@
+# Blender 5.1.0 MTL File: 'horse_head_1k.blend'
+# www.blender.org
+
+newmtl horse_head
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd horse_head_diff_1k.jpg
+map_Ns horse_head_rough_1k.png
+map_refl horse_head_metal_1k.png
+map_Bump horse_head_nor_dx_1k.png

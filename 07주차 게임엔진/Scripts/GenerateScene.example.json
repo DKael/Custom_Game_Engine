@@ -1,0 +1,80 @@
+{
+  "scene_name": "AutoPointLightGrid",
+  "world_type": "Editor",
+  "camera": {
+    "location": [158.421021, 76.895691, 205.454651],
+    "rotation": [-50.752869, -156.246597, 18.819605],
+    "fov": 90.0,
+    "near_clip": 0.1,
+    "far_clip": 2000.0
+  },
+  "fog": {
+    "enabled": true,
+    "location": [0.0, 0.0, 0.0],
+    "rotation": [0.0, 0.0, 0.0],
+    "scale": [1.0, 1.0, 1.0],
+    "inscattering_color": [0.5, 0.6, 0.7, 1.0],
+    "fog_density": 0.1,
+    "height_falloff": 0.2,
+    "start_distance": 0.0,
+    "cutoff_distance": 0.0,
+    "max_opacity": 1.0
+  },
+  "mesh_groups": [
+    {
+      "counts": [5, 1, 5],
+      "spacing": [120.0, 0.0, 120.0],
+      "origin": [0.0, 0.0, 0.0],
+      "center_grid": true,
+      "static_mesh": "Asset/Mesh/Dice/Dice.obj",
+      "materials": ["DicePaper"],
+      "rotation": [0.0, 0.0, 0.0],
+      "scale": [1.0, 1.0, 1.0],
+      "outline": true,
+      "visible": true,
+      "scroll_uv": [0.0, 0.0],
+      "text": {
+        "enabled": true,
+        "visible": false,
+        "font": "Default",
+        "font_size": 1.0,
+        "location": [0.0, 0.0, 1.0]
+      }
+    }
+  ],
+  "point_light_groups": [
+    {
+      "counts": [5, 1, 5],
+      "spacing": [120.0, 0.0, 120.0],
+      "origin": [0.0, 0.0, 31.459732],
+      "center_grid": true,
+      "root_rotation": [0.0, 0.0, 0.0],
+      "root_scale": [1.0, 1.0, 1.0],
+      "light": {
+        "color": [1.0, 0.9, 0.75, 1.0],
+        "intensity": 12.4,
+        "radius": 85.0,
+        "location": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "billboard": {
+        "enabled": true,
+        "visible": true,
+        "sprite": "Asset\\Texture\\S_LightPoint.png",
+        "width": 1.0,
+        "height": 1.0,
+        "play_rate": 30.0,
+        "loop": true,
+        "cylindrical": false,
+        "use_rotation": false,
+        "distance_fade": false,
+        "fade_start_distance": 100.0,
+        "fade_end_distance": 1000.0,
+        "location": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "Actors" : [{
+      "ClassName" : "AExponentialHeightFog",
+      "RootComponent" : {
+        "ClassName" : "UHeightFogComponent",
+        "Properties" : {
+          "Cutoff Distance" : 0.000000,
+          "Fog Density" : 0.100000,
+          "Height Falloff" : 0.200000,
+          "Inscattering Color" : [0.500000, 0.600000, 0.700000, 1.000000],
+          "Location" : [0.000000, 0.000000, 0.000000],
+          "Max Opacity" : 1.000000,
+          "Rotation" : [0.000000, -0.399994, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Start Distance" : 0.000000,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 0.000000, 0.000000],
+          "Material 0" : "眼睛",
+          "Material 1" : "眼白",
+          "Material 10" : "裙子",
+          "Material 11" : "鞋子",
+          "Material 12" : "手套",
+          "Material 2" : "脖子",
+          "Material 3" : "脸",
+          "Material 4" : "头发",
+          "Material 5" : "表情",
+          "Material 6" : "皮肤",
+          "Material 7" : "衣服",
+          "Material 8" : "裤子",
+          "Material 9" : "背饰",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset\\\\Mesh\\\\Lumine\\\\LumineModel.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "ADirectionalLightActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UDirectionalLightComponent",
+            "Properties" : {
+              "Color" : [1.000000, 1.000000, 1.000000, 1.000000],
+              "Intensity" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Rotation" : [0.000000, 10.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000]
+            }
+          }, {
+            "ClassName" : "UBillboardComponent",
+            "Properties" : {
+              "Distance Fade" : false,
+              "Fade End Distance" : 1000.000000,
+              "Fade Start Distance" : 100.000000,
+              "Height" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Outline" : false,
+              "Play Rate" : 30.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Sprite" : "Asset\\Texture\\S_LightDirectional.png",
+              "Visible" : true,
+              "Width" : 1.000000,
+              "bCylindrical" : false,
+              "bLoop" : true,
+              "bUseRotation" : false
+            }
+          }],
+        "ClassName" : "USceneComponent",
+        "Properties" : {
+          "Location" : [-0.511738, 0.000000, 0.000000],
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000]
+        }
+      },
+      "Visible" : true
+    }],
+  "ClassName" : "UWorld",
+  "Name" : "SpecularTest",
+  "PerspectiveCamera" : {
+    "FOV" : [90.000000],
+    "FarClip" : [2000.000000],
+    "Location" : [-0.563637, 0.295104, 0.350484],
+    "NearClip" : [0.100000],
+    "Rotation" : [13.377961, -35.087341, 9.231882]
+  },
+  "Version" : 3,
+  "WorldType" : "Editor"
+}

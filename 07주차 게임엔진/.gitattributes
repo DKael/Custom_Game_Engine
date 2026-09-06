@@ -1,0 +1,102 @@
+# ----------------------------------------------------------------------
+# 1. 기본 설정: Git이 파일 형식을 자동 감지하여 줄바꿈을 관리합니다.
+# ----------------------------------------------------------------------
+* text=auto
+
+# ----------------------------------------------------------------------
+# 2. 소스 코드 및 텍스트 파일: 
+# 'text'만 명시하여 Git이 Commit 시 LF로, Checkout 시 CRLF로 자동 변환하게 합니다.
+# ----------------------------------------------------------------------
+*.h           text
+*.hpp         text
+*.hh          text
+*.hxx         text
+*.inl         text
+
+*.c           text
+*.cc          text
+*.cpp         text
+*.cxx         text
+
+*.ixx         text
+*.cppm        text
+
+*.rc          text
+*.def         text
+
+# Shader Files
+*.hlsl        text
+*.hlsli       text
+*.fx          text
+*.fxh         text
+*.glsl        text
+*.vert        text
+*.frag        text
+*.comp        text
+
+# Build & Config
+*.cmake       text
+CMakeLists.txt text
+*.py          text
+*.lua         text
+*.json        text
+*.xml         text
+*.yml         text
+*.yaml        text
+*.toml        text
+*.ini         text
+*.cfg         text
+*.txt         text
+*.md          text
+
+# ----------------------------------------------------------------------
+# 3. Visual Studio / Windows 전용 파일: 
+# 윈도우 전용이므로 항상 CRLF를 유지하도록 명시합니다.
+# ----------------------------------------------------------------------
+*.sln         text eol=crlf
+*.vcxproj     text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.props       text eol=crlf
+*.targets     text eol=crlf
+*.bat         text eol=crlf
+*.cmd         text eol=crlf
+
+# ----------------------------------------------------------------------
+# 4. 바이너리 파일: 
+# 줄바꿈 변환이 절대 일어나면 안 되는 파일들입니다.
+# ----------------------------------------------------------------------
+*.png         binary
+*.jpg         binary
+*.jpeg        binary
+*.tga         binary
+*.dds         binary
+*.bmp         binary
+*.ico         binary
+*.gif         binary
+*.exr         binary
+*.hdr         binary
+
+*.fbx         binary
+*.glb         binary
+
+*.wav         binary
+*.mp3         binary
+*.ogg         binary
+
+*.mp4         binary
+*.avi         binary
+*.mov         binary
+
+*.zip         binary
+*.7z          binary
+*.rar         binary
+
+*.lib         binary
+*.dll         binary
+*.exe         binary
+*.pdb         binary
+*.ilk         binary
+
+# obj 파일은 텍스트 형식이지만 쉐이더와 달리 줄바꿈 변환에 민감할 수 있어 
+# 안전하게 binary로 처리하거나 설정을 뺍니다.
+*.obj         binary
