@@ -53,22 +53,22 @@ flowchart LR
 
 | 주차 | 유형 | 프로젝트 | 핵심 주제 | 상세 문서 |
 | --- | --- | --- | --- | --- |
-| 1 | 게임잼 | Brick Breaker | DirectX 11 게임 루프, 2인 협동, 충돌·반사, 아이템과 파티클 | [README](<1주차 게임잼/KraftonJungle_Week1_Team8/README.md>) |
-| 2 | 게임엔진 | CustomGameEngine | 3D Math, Camera, Reverse-Z, Picking, Gizmo, Scene과 UObject | [README](<2주차 게임엔진/KraftonJungle_Week2_Team4/README.md>) |
-| 3 | 게임엔진 | CO-PASS Engine | Sprite, Texture Atlas, Text, Batch Rendering, AABB와 Scene Manager | [README](<3주차 게임엔진/KraftonJungle3_Week3_Team2/README.md>) |
-| 4 | 게임엔진 | CO-PASS Engine | OBJ/MTL Import, Static Mesh, Asset Bake, Multi-Viewport와 OBJ Viewer | [README](<4주차 게임엔진/KraftonJungle_Week4_Team8/README.md>) |
-| 5 | 최적화잼 | ZZupEngine | BVH, Frustum·Occlusion Culling, LOD, Render Cache와 Picking 최적화 | [README](<5주차 최적화잼/Jungle_Week5_Team7/README.md>) |
-| 5+ | 게임엔진 | NipsEngine | PIE, 다중 World, Actor/Component, Text·Billboard와 Multi-Viewport | [README](<5+주차 게임엔진/Jungle_Week5+_Team7/README.md>) |
-| 6 | 게임엔진 | NipsEngine | Projection Decal, Scene Depth, Multi-Pass, Fog, FXAA와 Post Process | [README](<6주차 게임엔진/KraftonJungle_Week6_Team5/README.md>) |
-| 7 | 게임엔진 | NipsEngine | Forward Lighting, Uber Shader, Normal Mapping, 2.5D Tile Light Culling | [README](<7주차 게임엔진/KraftonJungle_Week7_Team7/README.md>) |
-| 8 | 게임엔진 | NipsEngine | Shadow Mapping, PSM·CSM, PCF·VSM, Shadow Atlas와 Resource Pool | [README](<8주차 게임엔진/Jungle_Week8_Team1/README.md>) |
-| 9 | 게임잼 | Drift Salvage | Lua 5.4, sol2, Script Component, Delegate, Collision Event와 게임 상태 | [README](<9주차 게임잼/Jungle_Week9_Team4/README.md>) |
-| 9+ | 게임엔진 | Drift Salvage 확장 | Camera Manager, Modifier, Spring Arm, Screen Effect와 Hit Feedback | [README](<9+주차 게임엔진/Jungle_Week9+_Team4/README.md>) |
-| 10 | 게임엔진 | LunaticEngine | FBX Import, Skeletal Mesh, Reference Pose, CPU Skinning과 Asset Bake | [README](<10주차 게임엔진/Jungle_Week10_Team3/README.md>) |
-| 11 | 게임엔진 | JSEngine | Animation Runtime, State Machine, GPU Skinning, Anim Notify와 개발 도구 | [README](<11주차 게임엔진/W11_Team3_Engine/README.md>) |
-| 12 | 게임엔진 | KraftonEngine | Particle Module, Sprite·Mesh·Beam·Ribbon, Translucency와 Symbol Server | [README](<12주차 게임엔진/Jungle_Week12_Team7/README.md>) |
-| 13 | 게임엔진 | KraftonEngine | PhysX, Rigid Body, Physics Asset, Ragdoll, Vehicle, NvCloth와 DoF | [README](<13주차 게임엔진/Jungle_Week13_Team2/README.md>) |
-| 14 | 최종 게임잼 | Snajper | Lua 게임 구조, 탄도, 전투 AI, Kill Cam, UI·Audio와 Release Packaging | [README](<14주차 게임잼/Jungle_Week14_Team7/README.md>) |
+| 1 | 게임잼 | Brick Breaker | DirectX 11 게임 루프, 2인 협동, 충돌·반사, 아이템과 파티클 | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/01%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%9E%BC/README.md>) |
+| 2 | 게임엔진 | CustomGameEngine | 3D Math, Camera, Reverse-Z, Picking, Gizmo, Scene과 UObject | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/02%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 3 | 게임엔진 | CO-PASS Engine | Sprite, Texture Atlas, Text, Batch Rendering, AABB와 Scene Manager | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/03%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 4 | 게임엔진 | CO-PASS Engine | OBJ/MTL Import, Static Mesh, Asset Bake, Multi-Viewport와 OBJ Viewer | [README](<https://github.com/DKael/Custom_Game_Engine/tree/main/04%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84>) |
+| 5 | 최적화잼 | ZZupEngine | BVH, Frustum·Occlusion Culling, LOD, Render Cache와 Picking 최적화 | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/05%EC%A3%BC%EC%B0%A8%20%EC%B5%9C%EC%A0%81%ED%99%94%EC%9E%BC/README.md>) |
+| 5+ | 게임엔진 | NipsEngine | PIE, 다중 World, Actor/Component, Text·Billboard와 Multi-Viewport | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/05%2B%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 6 | 게임엔진 | NipsEngine | Projection Decal, Scene Depth, Multi-Pass, Fog, FXAA와 Post Process | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/06%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 7 | 게임엔진 | NipsEngine | Forward Lighting, Uber Shader, Normal Mapping, 2.5D Tile Light Culling | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/07%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 8 | 게임엔진 | NipsEngine | Shadow Mapping, PSM·CSM, PCF·VSM, Shadow Atlas와 Resource Pool | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/08%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 9 | 게임잼 | Drift Salvage | Lua 5.4, sol2, Script Component, Delegate, Collision Event와 게임 상태 | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/09%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%9E%BC/README.md>) |
+| 9+ | 게임엔진 | Drift Salvage 확장 | Camera Manager, Modifier, Spring Arm, Screen Effect와 Hit Feedback | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/09%2B%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 10 | 게임엔진 | LunaticEngine | FBX Import, Skeletal Mesh, Reference Pose, CPU Skinning과 Asset Bake | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/10%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 11 | 게임엔진 | JSEngine | Animation Runtime, State Machine, GPU Skinning, Anim Notify와 개발 도구 | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/11%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 12 | 게임엔진 | KraftonEngine | Particle Module, Sprite·Mesh·Beam·Ribbon, Translucency와 Symbol Server | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/12%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 13 | 게임엔진 | KraftonEngine | PhysX, Rigid Body, Physics Asset, Ragdoll, Vehicle, NvCloth와 DoF | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/13%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84/README.md>) |
+| 14 | 최종 게임잼 | Snajper | Lua 게임 구조, 탄도, 전투 AI, Kill Cam, UI·Audio와 Release Packaging | [README](<https://github.com/DKael/Custom_Game_Engine/blob/main/14%EC%A3%BC%EC%B0%A8%20%EA%B2%8C%EC%9E%84%EC%9E%BC/README.md>) |
 
 ## 1. 게임 제작에서 엔진 기반으로
 
