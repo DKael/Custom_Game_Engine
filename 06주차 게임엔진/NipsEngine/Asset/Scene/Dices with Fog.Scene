@@ -1,0 +1,509 @@
+{
+  "Actors" : [{
+      "ClassName" : "AExponentialHeightFog",
+      "RootComponent" : {
+        "ClassName" : "UHeightFogComponent",
+        "Properties" : {
+          "Cutoff Distance" : 0.000000,
+          "Fog Density" : 0.100000,
+          "Height Falloff" : 0.200000,
+          "Inscattering Color" : [0.270498, 0.558340, 0.386430, 1.000000],
+          "Location" : [0.000000, 0.000000, 0.000000],
+          "Max Opacity" : 1.000000,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Start Distance" : 0.000000,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 0.000000, -1.000000],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : false,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [100.000000, 100.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 11",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [50.000000, 0.000000, 49.000000],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 100.000000, 100.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 14",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [-50.000000, 0.000000, 49.000000],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 100.000000, 100.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 17",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 50.000000, 49.000000],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [100.000000, 1.000000, 100.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 20",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, -50.000000, 49.000000],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [100.000000, 1.000000, 100.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 23",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 0.000000, 99.000000],
+          "Material 0" : "Mat_검은색_거친표면",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [100.000000, 100.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AFakeSpotlightActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UBillboardComponent",
+            "Properties" : {
+              "Distance Fade" : true,
+              "Fade End Distance" : 2.000000,
+              "Fade Start Distance" : 5.000000,
+              "Height" : 1.000000,
+              "Location" : [0.000000, 0.000000, 2.000000],
+              "Outline" : true,
+              "Play Rate" : 30.000000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [10.000000, 5.000000, 10.000000],
+              "Sprite" : "Asset\\Texture\\FakeSpotlight.png",
+              "Visible" : true,
+              "Width" : 1.000000,
+              "bCylindrical" : true,
+              "bLoop" : true,
+              "bUseRotation" : true
+            }
+          }, {
+            "ClassName" : "UDecalComponent",
+            "Properties" : {
+              "Distance Fade" : true,
+              "Fade Amount" : 9.800000,
+              "Fade End Distance" : 1.000000,
+              "Fade Start Distance" : 5.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Material" : "DecalFakeSpotlight",
+              "Rotation" : [0.000000, 90.000000, 0.000000],
+              "Scale" : [3.000000, 3.000000, 3.000000],
+              "Sort Order" : 0,
+              "Visible" : true
+            }
+          }, {
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 34",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "USceneComponent",
+        "Properties" : {
+          "Location" : [-0.453000, 0.005087, 0.015364],
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000]
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 44",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [-0.063906, -0.443349, 0.129343],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 78",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [-28.114979, 25.854689, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 81",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [10.998956, -3.515646, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 84",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, -14.440781, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 87",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [-15.431194, 40.403667, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 90",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [-48.376209, 31.751961, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 93",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [-15.759256, -0.971151, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 96",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 11.853481, 0.000000],
+          "Material 0" : "DicePaper",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }],
+  "ClassName" : "UWorld",
+  "Name" : "Dices with Fog",
+  "PerspectiveCamera" : {
+    "FOV" : [30.000000],
+    "FarClip" : [2000.000000],
+    "Location" : [22.832485, -26.950052, 10.080730],
+    "NearClip" : [0.100000],
+    "Rotation" : [-9.176270, 130.923233, -10.422974]
+  },
+  "Version" : 3,
+  "WorldType" : "Editor"
+}

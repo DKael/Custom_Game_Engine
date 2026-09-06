@@ -1,0 +1,93 @@
+{
+  "Actors" : [{
+      "ClassName" : "AExponentialHeightFog",
+      "RootComponent" : {
+        "ClassName" : "UHeightFogComponent",
+        "Properties" : {
+          "Cutoff Distance" : 0.000000,
+          "Fog Density" : 0.100000,
+          "Height Falloff" : 0.200000,
+          "Inscattering Color" : [0.500000, 0.600000, 0.700000, 1.000000],
+          "Location" : [0.000000, 0.000000, 2.628106],
+          "Max Opacity" : 1.000000,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Start Distance" : 0.000000,
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AStaticMeshActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UTextRenderComponent",
+            "Properties" : {
+              "Font" : "Default",
+              "Font Size" : 1.000000,
+              "Location" : [0.000000, 0.000000, 1.000000],
+              "Outline" : false,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Text" : "UUID: 7",
+              "Visible" : false
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 0.000000, 0.000000],
+          "Material 0" : "Bark",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [100.000000, 100.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Dice/Dice.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }, {
+      "ClassName" : "AFireballActor",
+      "RootComponent" : {
+        "Children" : [{
+            "ClassName" : "UFireBallComponent",
+            "Properties" : {
+              "Color" : [1.000000, 0.450000, 0.100000, 0.850000],
+              "Intensity" : 2.000000,
+              "Location" : [0.000000, 0.000000, 0.000000],
+              "Outline" : true,
+              "Radius" : 5.000000,
+              "Radius FallOff" : 0.400000,
+              "Rotation" : [0.000000, 0.000000, 0.000000],
+              "Scale" : [1.000000, 1.000000, 1.000000],
+              "Visible" : true
+            }
+          }],
+        "ClassName" : "StaticMeshComp",
+        "Properties" : {
+          "Location" : [0.000000, 0.000000, 1.601844],
+          "Material 0" : "",
+          "Outline" : true,
+          "Rotation" : [0.000000, 0.000000, 0.000000],
+          "Scale" : [1.000000, 1.000000, 1.000000],
+          "Scroll U" : 0.000000,
+          "Scroll V" : 0.000000,
+          "StaticMesh" : "Asset/Mesh/Sphere.obj",
+          "Visible" : true
+        }
+      },
+      "Visible" : true
+    }],
+  "ClassName" : "UWorld",
+  "Name" : "SuperDice",
+  "PerspectiveCamera" : {
+    "FOV" : [90.000000],
+    "FarClip" : [2000.000000],
+    "Location" : [3.765596, 2.226628, 4.069817],
+    "NearClip" : [0.100000],
+    "Rotation" : [-42.052399, -136.810791, 32.159863]
+  },
+  "Version" : 3,
+  "WorldType" : "Editor"
+}
