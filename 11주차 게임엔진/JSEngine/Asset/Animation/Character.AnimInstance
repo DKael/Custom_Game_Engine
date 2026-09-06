@@ -1,0 +1,20 @@
+{
+        "EntryState" : "Idle",
+        "Parameters" : [{
+            "BoolDefault" : false,
+            "FloatDefault" : 0.000000,
+            "IntDefault" : 0,
+            "Name" : "Direction",
+            "Type" : "Int"
+          }],
+        "States" : [{
+            "AnimSequencePath" : "",
+            "EditorX" : 80.000000,
+            "EditorY" : 120.000000,
+            "Loop" : true,
+            "Name" : "Idle",
+            "PlayRate" : 1.000000
+          }],
+        "Transitions" : [],
+        "Type" : "UAnimInstanceAsset"
+      }

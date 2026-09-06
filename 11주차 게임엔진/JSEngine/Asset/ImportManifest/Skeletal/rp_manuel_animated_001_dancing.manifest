@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : ["Asset/Animation/rp_manuel_animated_001_dancing/Take 001.sequence"],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/rp_manuel_animated_001_dancing.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/rp_manuel_animated_001_dancing.skeleton",
+        "SourceFileWriteTime" : "13423557778",
+        "SourcePath" : "Asset/SkeletalMesh/ManuelFBX/rp_manuel_animated_001_dancing.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }

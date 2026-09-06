@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : ["Asset/Animation/MM_Fall_Loop/Unreal Take.sequence"],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/MM_Fall_Loop.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/MM_Fall_Loop.skeleton",
+        "SourceFileWriteTime" : "13423679341",
+        "SourcePath" : "Asset/SkeletalMesh/UE_MF/MM_Fall_Loop.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }

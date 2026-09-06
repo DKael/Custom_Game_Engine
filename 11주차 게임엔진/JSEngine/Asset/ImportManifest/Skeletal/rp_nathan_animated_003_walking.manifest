@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : ["Asset/Animation/rp_nathan_animated_003_walking/Take 001.sequence"],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/rp_nathan_animated_003_walking.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/rp_nathan_animated_003_walking.skeleton",
+        "SourceFileWriteTime" : "13423380888",
+        "SourcePath" : "Asset/SkeletalMesh/NathanFBX/rp_nathan_animated_003_walking.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }

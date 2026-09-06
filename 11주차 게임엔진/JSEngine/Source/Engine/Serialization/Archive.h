@@ -1,0 +1,85 @@
+﻿#pragma once
+
+#include "Core/EngineTypes.h"
+#include "Core/Containers/String.h"
+#include "Core/Containers/Array.h"
+#include "Math/Quat.h"
+#include "Object/FName.h"
+
+struct FArchive
+{
+	virtual ~FArchive() = default;
+
+	virtual const FString& GetCurrentKey() { static FString EmptyKey; return EmptyKey; }
+	virtual void SetCurrentKey(const FString& Key) {}
+
+	virtual void BeginArray(const FString& Key, int32& OutCount) {}
+	virtual void EndArray() {}
+
+	virtual void BeginObject(const FString& Key) {}
+	virtual void BeginObject(int32 Index) {}
+	virtual void EndObject() {}
+
+
+	virtual void Serialize(void* Data, uint32 Size) = 0;
+
+	virtual bool IsLoading() const { return false; }
+	virtual bool IsSaving() const { return false; }
+	virtual bool HasKey(const FString& Key) { (void)Key; return false; }
+
+	virtual FArchive& operator<<(bool& Value) = 0;
+	virtual FArchive& operator<<(int32& Value) = 0;
+	virtual FArchive& operator<<(uint32& Value) = 0;
+	virtual FArchive& operator<<(float& Value) = 0;
+	virtual FArchive& operator<<(const char* Value) = 0;
+	virtual FArchive& operator<<(FString& Value) = 0;
+	virtual FArchive& operator<<(FName& Value) = 0;
+	virtual FArchive& operator<<(FVector2& Value) = 0;
+	virtual FArchive& operator<<(FVector& Value) = 0;
+	virtual FArchive& operator<<(FVector4& Value) = 0;
+	virtual FArchive& operator<<(FColor& Value) = 0;
+	virtual FArchive& operator<<(FMatrix& Value) = 0;
+};
+
+inline FArchive& operator<<(FArchive& Ar, FQuat& Value)
+{
+	FVector4 QuatVector(Value.X, Value.Y, Value.Z, Value.W);
+	Ar << QuatVector;
+
+	if (Ar.IsLoading())
+	{
+		Value.X = QuatVector.X;
+		Value.Y = QuatVector.Y;
+		Value.Z = QuatVector.Z;
+		Value.W = QuatVector.W;
+	}
+
+	return Ar;
+}
+
+template <typename T>
+FArchive& operator<<(FArchive& Ar, TArray<T>& Array)
+{
+	int32 Num = (int32)Array.size();
+
+	Ar.BeginArray(Ar.GetCurrentKey(), Num);
+
+	if (Ar.IsSaving())
+	{
+		for (T& Element : Array)
+		{
+			Ar << Element;
+		}
+	}
+	else if (Ar.IsLoading())
+	{
+		Array.resize(Num);
+		for (T& Element : Array)
+		{
+			Ar << Element;
+		}
+	}
+	
+	Ar.EndArray();
+	return Ar;
+}

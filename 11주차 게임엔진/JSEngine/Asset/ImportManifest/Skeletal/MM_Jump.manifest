@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : ["Asset/Animation/MM_Jump/Unreal Take.sequence"],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/MM_Jump.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/MM_Jump.skeleton",
+        "SourceFileWriteTime" : "13423679341",
+        "SourcePath" : "Asset/SkeletalMesh/UE_MF/MM_Jump.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }

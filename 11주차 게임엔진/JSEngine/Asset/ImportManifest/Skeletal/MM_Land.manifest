@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : ["Asset/Animation/MM_Land/Unreal Take.sequence"],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/MM_Land.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/MM_Land.skeleton",
+        "SourceFileWriteTime" : "13423679340",
+        "SourcePath" : "Asset/SkeletalMesh/UE_MF/MM_Land.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }

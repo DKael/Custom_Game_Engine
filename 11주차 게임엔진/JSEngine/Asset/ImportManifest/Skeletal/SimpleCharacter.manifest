@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : [],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/SimpleCharacter.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/SimpleCharacter.skeleton",
+        "SourceFileWriteTime" : "13423228976",
+        "SourcePath" : "Asset/SkeletalMesh/SimpleCharacter.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }

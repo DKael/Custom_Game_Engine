@@ -1,0 +1,10 @@
+{
+        "AnimationSequencePaths" : ["Asset/Animation/SamuraiIdle/Unreal Take.sequence"],
+        "PhysicsAssetPath" : "",
+        "SkeletalMeshAssetPath" : "Asset/SkeletalMesh/Bin/SamuraiIdle.skmesh",
+        "SkeletonAssetPath" : "Asset/Skeleton/Bin/SamuraiIdle.skeleton",
+        "SourceFileWriteTime" : "13423749293",
+        "SourcePath" : "Asset/SkeletalMesh/Samurai/SamuraiIdle.fbx",
+        "Type" : "SkeletalImportManifest",
+        "Version" : 1
+      }
