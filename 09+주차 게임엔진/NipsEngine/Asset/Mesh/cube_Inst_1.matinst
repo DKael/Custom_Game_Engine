@@ -1,0 +1,9 @@
+{
+        "Name" : "Asset/Mesh/cube_Inst_1.matinst",
+        "OverridedParams" : [{
+            "Name" : "EmissiveColor",
+            "Type" : "Vector3",
+            "Value" : [1.000000, 1.000000, 1.000000]
+          }],
+        "Parent" : "Material"
+      }

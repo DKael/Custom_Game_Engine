@@ -1,0 +1,89 @@
+{
+  "channels" : {
+    "FOV" : [],
+    "Location.X" : [],
+    "Location.Y" : [],
+    "Location.Z" : [{
+        "arriveTangent" : 0.000000,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.971044,
+        "leaveTime" : 0.001000,
+        "time" : 0.000000,
+        "value" : 0.013072
+      }, {
+        "arriveTangent" : -0.152517,
+        "arriveTime" : 0.525627,
+        "interp" : "Bezier",
+        "leaveTangent" : -0.385779,
+        "leaveTime" : 0.485207,
+        "time" : 0.461538,
+        "value" : 2.042765
+      }, {
+        "arriveTangent" : -0.879217,
+        "arriveTime" : 0.118343,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.699346,
+        "leaveTime" : 0.031065,
+        "time" : 1.136095,
+        "value" : 0.122842
+      }, {
+        "arriveTangent" : 0.089716,
+        "arriveTime" : 0.171598,
+        "interp" : "Bezier",
+        "leaveTangent" : -0.044858,
+        "leaveTime" : 0.343195,
+        "time" : 1.420118,
+        "value" : 1.199434
+      }, {
+        "arriveTangent" : -0.619041,
+        "arriveTime" : 0.124260,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.431373,
+        "leaveTime" : 0.026627,
+        "time" : 2.153846,
+        "value" : 0.077984
+      }, {
+        "arriveTangent" : 0.071773,
+        "arriveTime" : 0.118343,
+        "interp" : "Bezier",
+        "leaveTangent" : -0.107659,
+        "leaveTime" : 0.260355,
+        "time" : 2.349113,
+        "value" : 0.795712
+      }, {
+        "interp" : "Linear",
+        "time" : 2.840580,
+        "value" : 0.095927
+      }, {
+        "interp" : "Linear",
+        "time" : 3.020290,
+        "value" : 0.490678
+      }, {
+        "interp" : "Linear",
+        "time" : 3.408696,
+        "value" : 0.060041
+      }, {
+        "interp" : "Linear",
+        "time" : 3.547826,
+        "value" : 0.293302
+      }, {
+        "interp" : "Linear",
+        "time" : 3.785507,
+        "value" : 0.042098
+      }, {
+        "interp" : "Linear",
+        "time" : 3.884058,
+        "value" : 0.158728
+      }, {
+        "interp" : "Linear",
+        "time" : 4.000000,
+        "value" : 0.024154
+      }],
+    "Rotation.X" : [],
+    "Rotation.Y" : [],
+    "Rotation.Z" : []
+  },
+  "duration" : 4.000000,
+  "name" : "NewSequence"
+}

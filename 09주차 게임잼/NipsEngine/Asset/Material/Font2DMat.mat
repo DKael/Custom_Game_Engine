@@ -1,0 +1,5 @@
+{
+    "Name": "Font2DMat",
+    "Shader": "Shaders/ShaderFont2D.hlsl",
+    "Params": []
+}

@@ -1,0 +1,6 @@
+{
+        "LightingModel" : "Lambert",
+        "Name" : "Asset/Mesh/Hazard/Hazard_Inst_20.matinst",
+        "OverridedParams" : [],
+        "Parent" : "Материал.001"
+      }

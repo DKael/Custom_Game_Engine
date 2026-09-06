@@ -1,0 +1,5 @@
+{
+    "Name": "UIMat",
+    "Shader": "Shaders/ShaderUI.hlsl",
+    "Params": []
+}

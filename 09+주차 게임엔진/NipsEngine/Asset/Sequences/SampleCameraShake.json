@@ -1,0 +1,121 @@
+{
+  "channels" : {
+    "FOV" : [{
+        "arriveTangent" : -0.950000,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : 1.090825,
+        "leaveTime" : 0.001000,
+        "time" : 0.000000,
+        "value" : -0.077310
+      }, {
+        "arriveTangent" : -1.439494,
+        "arriveTime" : 0.011643,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.241631,
+        "leaveTime" : 0.051746,
+        "time" : 1.000000,
+        "value" : -0.080429
+      }, {
+        "arriveTangent" : -0.261683,
+        "arriveTime" : 0.068564,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.110288,
+        "leaveTime" : 0.065977,
+        "time" : 2.000000,
+        "value" : -0.080429
+      }, {
+        "arriveTangent" : -0.119311,
+        "arriveTime" : 0.078913,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.054452,
+        "leaveTime" : 0.124109,
+        "time" : 2.610556,
+        "value" : -0.083103
+      }, {
+        "arriveTangent" : -0.054452,
+        "arriveTime" : 0.001000,
+        "interp" : "Bezier",
+        "leaveTangent" : 0.000000,
+        "leaveTime" : 0.100000,
+        "time" : 3.000000,
+        "value" : -0.085420
+      }],
+    "Location.X" : [{
+        "interp" : "Linear",
+        "time" : 0.000000,
+        "value" : 0.000000
+      }, {
+        "arriveTangent" : 0.000000,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : -96.459656,
+        "leaveTime" : 0.100000,
+        "time" : 0.134541,
+        "value" : 5.400000
+      }, {
+        "arriveTangent" : -80.809181,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : 6.000000,
+        "leaveTime" : 0.100000,
+        "time" : 0.380336,
+        "value" : -1.934222
+      }, {
+        "arriveTangent" : 5.000000,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : -3.500000,
+        "leaveTime" : 0.100000,
+        "time" : 0.626132,
+        "value" : 5.280778
+      }, {
+        "interp" : "Linear",
+        "time" : 1.000000,
+        "value" : 0.000000
+      }],
+    "Location.Y" : [{
+        "interp" : "Linear",
+        "time" : 0.000000,
+        "value" : 0.000000
+      }, {
+        "arriveTangent" : 0.000000,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : -7.000000,
+        "leaveTime" : 0.100000,
+        "time" : 0.275550,
+        "value" : -0.785551
+      }, {
+        "interp" : "Linear",
+        "time" : 0.809276,
+        "value" : -0.931579
+      }, {
+        "interp" : "Linear",
+        "time" : 1.000000,
+        "value" : 0.000000
+      }],
+    "Location.Z" : [],
+    "Rotation.X" : [],
+    "Rotation.Y" : [],
+    "Rotation.Z" : [{
+        "interp" : "Linear",
+        "time" : 0.000000,
+        "value" : 0.000000
+      }, {
+        "arriveTangent" : 0.000000,
+        "arriveTime" : 0.100000,
+        "interp" : "Bezier",
+        "leaveTangent" : 10.287916,
+        "leaveTime" : 0.100000,
+        "time" : 0.452781,
+        "value" : -0.877778
+      }, {
+        "interp" : "Linear",
+        "time" : 0.998729,
+        "value" : 0.000000
+      }]
+  },
+  "duration" : 3.000000,
+  "name" : "SampleCameraShake"
+}

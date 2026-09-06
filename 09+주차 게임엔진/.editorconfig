@@ -1,0 +1,11 @@
+root = true
+
+[*.{c,cc,cpp,cxx,h,hh,hpp,hxx,ixx,inl}]
+charset = utf-8-bom
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+
+[*.{hlsl,usf,ush}]
+charset = utf-8
+end_of_line = crlf

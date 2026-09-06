@@ -1,0 +1,85 @@
+﻿#include "DepthLessRenderPass.h"
+#include "Render/Scene/RenderBus.h"
+#include "Render/Resource/Material.h"
+
+bool FDepthLessRenderPass::Initialize()
+{
+    return true;
+}
+
+bool FDepthLessRenderPass::Release()
+{
+    return true;
+}
+
+bool FDepthLessRenderPass::Begin(const FRenderPassContext* Context)
+{
+    ID3D11RenderTargetView* RTVs[3] = {
+        PrevPassRTV ? PrevPassRTV : Context->RenderTargets->SceneColorRTV,
+        Context->RenderTargets->SceneNormalRTV,
+        Context->RenderTargets->SceneWorldPosRTV
+    };
+    ID3D11DepthStencilView* DSV = Context->RenderTargets->DepthStencilView;
+    Context->DeviceContext->OMSetRenderTargets(ARRAYSIZE(RTVs), RTVs, DSV);
+    Context->DeviceContext->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
+
+    OutSRV = PrevPassSRV;
+    OutRTV = PrevPassRTV;
+    return true;
+}
+
+bool FDepthLessRenderPass::DrawCommand(const FRenderPassContext* Context)
+{
+    const TArray<FRenderCommand>& Commands = Context->RenderBus->GetCommands(ERenderPass::DepthLess);
+    if (Commands.empty())
+    {
+        return true;
+    }
+
+    for (const FRenderCommand& Cmd : Commands)
+    {
+        if (Cmd.MeshBuffer == nullptr || !Cmd.MeshBuffer->IsValid())
+        {
+            continue;
+        }
+
+        uint32 offset = 0;
+        ID3D11Buffer* vertexBuffer = Cmd.MeshBuffer->GetVertexBuffer().GetBuffer();
+        if (vertexBuffer == nullptr)
+        {
+            continue;
+        }
+
+        uint32 vertexCount = Cmd.MeshBuffer->GetVertexBuffer().GetVertexCount();
+        uint32 stride = Cmd.MeshBuffer->GetVertexBuffer().GetStride();
+        if (vertexCount == 0 || stride == 0)
+        {
+            continue;
+        }
+
+        if (Cmd.Material != nullptr)
+        {
+            Cmd.Material->Bind(Context->DeviceContext, Context->RenderBus, &Cmd.PerObjectConstants);
+        }
+
+        Context->DeviceContext->IASetVertexBuffers(0, 1, &vertexBuffer, &stride, &offset);
+
+        ID3D11Buffer* indexBuffer = Cmd.MeshBuffer->GetIndexBuffer().GetBuffer();
+        if (indexBuffer != nullptr)
+        {
+            Context->DeviceContext->IASetIndexBuffer(indexBuffer, DXGI_FORMAT_R32_UINT, 0);
+            Context->DeviceContext->DrawIndexed(Cmd.SectionIndexCount, Cmd.SectionIndexStart, 0);
+        }
+        else
+        {
+            Context->DeviceContext->Draw(vertexCount, 0);
+        }
+    }
+
+    return true;
+}
+
+bool FDepthLessRenderPass::End(const FRenderPassContext* Context)
+{
+    return true;
+}

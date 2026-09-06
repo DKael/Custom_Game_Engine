@@ -1,0 +1,6 @@
+{
+        "LightingModel" : "Lambert",
+        "Name" : "Asset/Mesh/Recycle/Recycle1_Inst_0.matinst",
+        "OverridedParams" : [],
+        "Parent" : "plastic_bottle_gallon"
+      }
