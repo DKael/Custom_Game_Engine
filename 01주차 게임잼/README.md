@@ -253,7 +253,7 @@ UGameScene
 
 ### 배포본 실행
 
-상위 폴더의 [`Brick Breaker.zip`](<../Brick Breaker.zip>)에는 다음 실행 파일과 런타임 리소스가 포함되어 있습니다.
+상위 폴더의 [`Brick Breaker.zip`](<./Brick Breaker.zip>)에는 다음 실행 파일과 런타임 리소스가 포함되어 있습니다.
 
 ```text
 Release/
@@ -323,7 +323,7 @@ JungleEntranceExam/FMOD/lib/fmod_vc.lib
 
 ## 참고 자료
 
-- [Brick Breaker 발표 자료](<../Brick Breaker 발표 자료.pdf>)
-- [Brick Breaker 설명 문서](<../Brick Breaker 설명 문서.pdf>)
-- [Brick Breaker 실행 파일](<../Brick Breaker.zip>)
+- [Brick Breaker 발표 자료](<./Brick Breaker 발표 자료.pdf>)
+- [Brick Breaker 설명 문서](<./Brick Breaker 설명 문서.pdf>)
+- [Brick Breaker 실행 파일](<./Brick Breaker.zip>)
 
